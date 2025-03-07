@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #ffffff;
+    
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #06b6d4;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #facc15;
+}
+
+.hero img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* Investment Breakdown */
+.investment-breakdown {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.breakdown-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.property-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Progress Bar */
+.progress-bar-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.progress-bar-container .progress-bar {
+    width: 50%;
+    height: 8px;
+    background: #2563eb;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+}
+
+/* How It Works */
+.how-it-works {
+    background: #f9fafb;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.step {
+    text-align: center;
+    max-width: 150px;
+}
+
+.step i {
+    font-size: 2.5rem;
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+/* Featured Properties */
+.featured-properties {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.property-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.property {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.property img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.invest-button {
+    background-color: #2563eb;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.invest-button:hover {
+    background-color: #1e40af;
+}
